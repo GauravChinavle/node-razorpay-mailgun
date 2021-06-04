@@ -1,0 +1,26 @@
+# Payment Integration App
+### Description
+This project provides a payment gateway and send acknowledgement mail to customer.
+
+### How to use ?
+```
+ git clone https://github.com/GauravChinavle/node-razorpay-mailgun.git
+ cd node-razorpay-mailgun
+ npm install
+ nodemon bin/www
+```
+### Technologies used
+- [Nodejs](https://nodejs.org/en/)  - _JavaScript runtime built on Chrome's V8 JavaScript engine_
+- [Express](https://expressjs.com/) - _Fast, unopinionated, minimalist web framework for Node.js_
+
+### Modules used
+- [Razorpay](https://razorpay.com/)   - _Payment gateway_
+- [Mailgun](https://www.mailgun.com/) - _Email service_
+
+### Credentials required
+- Razorpay 
+- Mailgun 
+###### _credentials should be saved in .env_
+
+
+
